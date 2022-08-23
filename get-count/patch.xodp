@@ -1,0 +1,58 @@
+{
+  "description": "Reports the number of values stored in the sample buffer.",
+  "nodes": [
+    {
+      "id": "H1m9Chzys",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "description": "Sample buffer.",
+      "id": "rkxQcR2fkj",
+      "label": "Buffer",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 0
+      },
+      "type": "@/input-sample-buffer"
+    },
+    {
+      "description": "Update. ",
+      "id": "rkW7qChMJi",
+      "label": "UPD",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "description": "Pulse on completion.",
+      "id": "HyzX50nzJi",
+      "label": "Done",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "description": "Number of values in the sample buffer.",
+      "id": "S1ef1Tz1s",
+      "label": "Count",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-number"
+    }
+  ]
+}

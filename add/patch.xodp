@@ -1,0 +1,58 @@
+{
+  "description": "Adds a new value to the sample buffer. If the buffer is already full the new value replaces the oldest element.",
+  "nodes": [
+    {
+      "id": "SJTm53GJs",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "description": "Sample buffer.",
+      "id": "BySNq2f1i",
+      "label": "Buffer",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 0
+      },
+      "type": "@/input-sample-buffer"
+    },
+    {
+      "description": "New value to be stored in buffer.",
+      "id": "HygH9nM1j",
+      "label": "New",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-number"
+    },
+    {
+      "description": "Update. Push new value into sample buffer.",
+      "id": "HJvYchMki",
+      "label": "UPD",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "description": "Pulses when a new value is stored in the sample buffer.",
+      "id": "BJe3c2fyj",
+      "label": "Done",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "description": "Is the buffer full?",
+  "nodes": [
+    {
+      "id": "rke1A2M1j",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "description": "Sample buffer.",
+      "id": "B1xeJA3zys",
+      "label": "Buffer",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 0
+      },
+      "type": "@/input-sample-buffer"
+    },
+    {
+      "description": "Update. ",
+      "id": "HJWxyAnfko",
+      "label": "UPD",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "description": "Pulse after checking if buffer is full.",
+      "id": "BkMeJC3Gyj",
+      "label": "Done",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "description": "True = buffer is full. False = buffer is not full.",
+      "id": "ryjkChzJj",
+      "label": "Full",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-boolean"
+    }
+  ]
+}

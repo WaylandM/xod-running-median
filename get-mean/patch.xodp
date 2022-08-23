@@ -1,0 +1,58 @@
+{
+  "description": "Get the mean of the values stored in the sample buffer.",
+  "nodes": [
+    {
+      "id": "SJaIbpGJi",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 0.75
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "description": "Sample buffer.",
+      "id": "Byea8-6Gko",
+      "label": "Buffer",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": -0.25
+      },
+      "type": "@/input-sample-buffer"
+    },
+    {
+      "description": "Update. ",
+      "id": "ryZTI-az1i",
+      "label": "UPD",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": -0.25
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "description": "Pulse on completion.",
+      "id": "Hyf6L-6Mks",
+      "label": "Done",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 1.75
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "description": "Mean of values in the sample buffer.",
+      "id": "SyQTLZaz1j",
+      "label": "Mean",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 1.75
+      },
+      "type": "xod/patch-nodes/output-number"
+    }
+  ]
+}

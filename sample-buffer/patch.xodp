@@ -1,0 +1,37 @@
+{
+  "nodes": [
+    {
+      "id": "H1WAynfko",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "id": "rJgJPnGko",
+      "label": "Buffer",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-self"
+    },
+    {
+      "boundLiterals": {
+        "__out__": "30"
+      },
+      "description": "Size of internal buffer. Must be an integer. Maximum size is 255. Odd sizes results in a 'real' middle element and will be a bit faster. Even sizes takes the average of the two middle elements as median.",
+      "id": "ByFjk6Gys",
+      "label": "Size",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-number"
+    }
+  ]
+}
