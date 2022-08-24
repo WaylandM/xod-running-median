@@ -6,7 +6,7 @@
       "position": {
         "units": "slots",
         "x": 0,
-        "y": 0.75
+        "y": 1
       },
       "type": "xod/patch-nodes/not-implemented-in-xod"
     },
@@ -17,7 +17,7 @@
       "position": {
         "units": "slots",
         "x": 0,
-        "y": -0.25
+        "y": 0
       },
       "type": "@/input-sample-buffer"
     },
@@ -28,7 +28,7 @@
       "position": {
         "units": "slots",
         "x": 1,
-        "y": -0.25
+        "y": 0
       },
       "type": "xod/patch-nodes/input-pulse"
     },
@@ -39,7 +39,7 @@
       "position": {
         "units": "slots",
         "x": 1,
-        "y": 1.75
+        "y": 2
       },
       "type": "xod/patch-nodes/output-pulse"
     },
@@ -50,7 +50,7 @@
       "position": {
         "units": "slots",
         "x": 0,
-        "y": 1.75
+        "y": 2
       },
       "type": "xod/patch-nodes/output-number"
     }

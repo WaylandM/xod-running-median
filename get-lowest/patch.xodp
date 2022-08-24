@@ -1,2 +1,58 @@
 {
+  "description": "Get the lowest value in the sample buffer.",
+  "nodes": [
+    {
+      "id": "rkXpd9Xys",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "description": "Sample buffer.",
+      "id": "H1lmTO9Qko",
+      "label": "Buffer",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 0
+      },
+      "type": "@/input-sample-buffer"
+    },
+    {
+      "description": "Update. ",
+      "id": "S1ZX6d9Xyi",
+      "label": "UPD",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "description": "Pulse on completion.",
+      "id": "SJfX6O57yo",
+      "label": "Done",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "description": "Lowest value in the sample buffer.",
+      "id": "B1XXpu5m1i",
+      "label": "Lowest",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-number"
+    }
+  ]
 }
