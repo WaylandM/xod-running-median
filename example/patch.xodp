@@ -1,4 +1,5 @@
 {
+  "description": "Patch for testing and demonstration.",
   "links": [
     {
       "id": "Hk4xlwDys",
@@ -342,39 +343,6 @@
       }
     },
     {
-      "id": "SJvdg_wki",
-      "input": {
-        "nodeId": "H1M_guD1o",
-        "pinKey": "HJAq-A_8-"
-      },
-      "output": {
-        "nodeId": "ByQ4JPPJj",
-        "pinKey": "Hyf6L-6Mks"
-      }
-    },
-    {
-      "id": "r1TuldvJo",
-      "input": {
-        "nodeId": "rytueuvJo",
-        "pinKey": "HkXK-dGob"
-      },
-      "output": {
-        "nodeId": "H1M_guD1o",
-        "pinKey": "r1yhZRd8W"
-      }
-    },
-    {
-      "id": "ByngeqDys",
-      "input": {
-        "nodeId": "r1RkgcPJo",
-        "pinKey": "SyKd0E2x-"
-      },
-      "output": {
-        "nodeId": "B16oyPwki",
-        "pinKey": "Bkf4BDsmV"
-      }
-    },
-    {
       "id": "Hk0xx5Pko",
       "input": {
         "nodeId": "B1zzyvwys",
@@ -394,6 +362,39 @@
       "output": {
         "nodeId": "r1RkgcPJo",
         "pinKey": "BkGpcpcJQ"
+      }
+    },
+    {
+      "id": "Hk1RG9PJj",
+      "input": {
+        "nodeId": "r1RkgcPJo",
+        "pinKey": "SyKd0E2x-"
+      },
+      "output": {
+        "nodeId": "SysafcP1j",
+        "pinKey": "HJU8CE2lW"
+      }
+    },
+    {
+      "id": "rksCGcDko",
+      "input": {
+        "nodeId": "SysafcP1j",
+        "pinKey": "r1jzp_DTZ"
+      },
+      "output": {
+        "nodeId": "rkdRGqPks",
+        "pinKey": "Sk1e_NIVE"
+      }
+    },
+    {
+      "id": "SktLXcwko",
+      "input": {
+        "nodeId": "rytueuvJo",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "r1RkgcPJo",
+        "pinKey": "SyBtREhlW"
       }
     }
   ],
@@ -499,15 +500,6 @@
         "y": 2
       },
       "type": "@/get-count"
-    },
-    {
-      "id": "B16oyPwki",
-      "position": {
-        "units": "slots",
-        "x": 10,
-        "y": -1
-      },
-      "type": "xod/debug/tweak-pulse"
     },
     {
       "id": "Sy-C1vP1s",
@@ -800,20 +792,11 @@
       "type": "xod/debug/watch"
     },
     {
-      "id": "H1M_guD1o",
-      "position": {
-        "units": "slots",
-        "x": 13,
-        "y": 4
-      },
-      "type": "xod/core/count"
-    },
-    {
       "id": "rytueuvJo",
       "position": {
         "units": "slots",
-        "x": 13,
-        "y": 5
+        "x": 7,
+        "y": 3
       },
       "type": "xod/debug/watch"
     },
@@ -825,6 +808,30 @@
         "y": 0
       },
       "type": "xod/gpio/analog-read"
+    },
+    {
+      "boundLiterals": {
+        "B13SCNhl-": "0.5"
+      },
+      "id": "SysafcP1j",
+      "position": {
+        "units": "slots",
+        "x": 8,
+        "y": -1
+      },
+      "type": "xod/core/clock"
+    },
+    {
+      "boundLiterals": {
+        "Sk1e_NIVE": "True"
+      },
+      "id": "rkdRGqPks",
+      "position": {
+        "units": "slots",
+        "x": 8,
+        "y": -2
+      },
+      "type": "xod/debug/tweak-boolean"
     }
   ]
 }
