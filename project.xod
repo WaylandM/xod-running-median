@@ -1,3 +1,6 @@
 {
-  "name": "running-median"
+  "description": "Library to determine the running median using a circular buffer. Wraps https://github.com/RobTillaart/Arduino/tree/master/libraries/RunningMedian",
+  "license": "MIT",
+  "name": "running-median",
+  "version": "0.0.1"
 }

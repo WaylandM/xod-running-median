@@ -1,5 +1,5 @@
 {
-  "description": "Get trimmed mean of values stored in  sample buffer. The trimmed mean removes noise from outliers.",
+  "description": "Get the mean of the middle N values in the sample buffer. The trimmed mean excludes noise from outliers.",
   "nodes": [
     {
       "id": "HkTmxiQ1i",
@@ -58,7 +58,7 @@
       "boundLiterals": {
         "__out__": "19"
       },
-      "description": "Number of samples to retain.",
+      "description": "Number of values to use when calculating mean.",
       "id": "H1NpXgi7yi",
       "label": "N",
       "position": {
