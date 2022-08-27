@@ -351,6 +351,17 @@
         "nodeId": "HkBOJvPko",
         "pinKey": "rkXK-d5Qyo"
       }
+    },
+    {
+      "id": "BkQPuwwys",
+      "input": {
+        "nodeId": "B1zzyvwys",
+        "pinKey": "HygH9nM1j"
+      },
+      "output": {
+        "nodeId": "S1AUuPDkj",
+        "pinKey": "ByfGSDjQE"
+      }
     }
   ],
   "nodes": [
@@ -364,6 +375,9 @@
       "type": "@/sample-buffer"
     },
     {
+      "boundLiterals": {
+        "HygH9nM1j": "5"
+      },
       "id": "B1zzyvwys",
       "position": {
         "units": "slots",
@@ -751,6 +765,16 @@
         "y": 3
       },
       "type": "xod/debug/watch"
+    },
+    {
+      "id": "S1AUuPDkj",
+      "label": "5",
+      "position": {
+        "units": "slots",
+        "x": 7,
+        "y": 0
+      },
+      "type": "xod/debug/tweak-number"
     }
   ]
 }

@@ -1,4 +1,4 @@
-#pragma XOD require "https://github.com/RobTillaart/Arduino/tree/master/libraries/RunningMedian"
+#pragma XOD require "https://github.com/WaylandM/RunningMedian"
 
 #include <RunningMedian.h>
 
