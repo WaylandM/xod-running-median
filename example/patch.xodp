@@ -1,17 +1,6 @@
 {
   "links": [
     {
-      "id": "SkoaJDPJj",
-      "input": {
-        "nodeId": "B1zzyvwys",
-        "pinKey": "HJvYchMki"
-      },
-      "output": {
-        "nodeId": "B16oyPwki",
-        "pinKey": "Bkf4BDsmV"
-      }
-    },
-    {
       "id": "Hk4xlwDys",
       "input": {
         "nodeId": "rJAmJDv1j",
@@ -353,14 +342,58 @@
       }
     },
     {
-      "id": "BkQPuwwys",
+      "id": "SJvdg_wki",
+      "input": {
+        "nodeId": "H1M_guD1o",
+        "pinKey": "HJAq-A_8-"
+      },
+      "output": {
+        "nodeId": "ByQ4JPPJj",
+        "pinKey": "Hyf6L-6Mks"
+      }
+    },
+    {
+      "id": "r1TuldvJo",
+      "input": {
+        "nodeId": "rytueuvJo",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "H1M_guD1o",
+        "pinKey": "r1yhZRd8W"
+      }
+    },
+    {
+      "id": "ByngeqDys",
+      "input": {
+        "nodeId": "r1RkgcPJo",
+        "pinKey": "SyKd0E2x-"
+      },
+      "output": {
+        "nodeId": "B16oyPwki",
+        "pinKey": "Bkf4BDsmV"
+      }
+    },
+    {
+      "id": "Hk0xx5Pko",
       "input": {
         "nodeId": "B1zzyvwys",
         "pinKey": "HygH9nM1j"
       },
       "output": {
-        "nodeId": "S1AUuPDkj",
-        "pinKey": "ByfGSDjQE"
+        "nodeId": "r1RkgcPJo",
+        "pinKey": "SyBtREhlW"
+      }
+    },
+    {
+      "id": "BkJWx9vkj",
+      "input": {
+        "nodeId": "B1zzyvwys",
+        "pinKey": "HJvYchMki"
+      },
+      "output": {
+        "nodeId": "r1RkgcPJo",
+        "pinKey": "BkGpcpcJQ"
       }
     }
   ],
@@ -471,8 +504,8 @@
       "id": "B16oyPwki",
       "position": {
         "units": "slots",
-        "x": 8,
-        "y": 0
+        "x": 10,
+        "y": -1
       },
       "type": "xod/debug/tweak-pulse"
     },
@@ -767,14 +800,31 @@
       "type": "xod/debug/watch"
     },
     {
-      "id": "S1AUuPDkj",
-      "label": "5",
+      "id": "H1M_guD1o",
+      "position": {
+        "units": "slots",
+        "x": 13,
+        "y": 4
+      },
+      "type": "xod/core/count"
+    },
+    {
+      "id": "rytueuvJo",
+      "position": {
+        "units": "slots",
+        "x": 13,
+        "y": 5
+      },
+      "type": "xod/debug/watch"
+    },
+    {
+      "id": "r1RkgcPJo",
       "position": {
         "units": "slots",
         "x": 7,
         "y": 0
       },
-      "type": "xod/debug/tweak-number"
+      "type": "xod/gpio/analog-read"
     }
   ]
 }
