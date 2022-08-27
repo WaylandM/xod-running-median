@@ -1,4 +1,5 @@
 {
+  "description": "Get trimmed mean of values stored in  sample buffer. The trimmed mean removes noise from outliers.",
   "nodes": [
     {
       "id": "HkTmxiQ1i",
@@ -43,9 +44,9 @@
       "type": "xod/patch-nodes/output-pulse"
     },
     {
-      "description": "Value of the specified quantile.",
+      "description": "Trimmed mean.",
       "id": "BJ7T7ls7ys",
-      "label": "Value",
+      "label": "tMean",
       "position": {
         "units": "slots",
         "x": 0,
@@ -55,11 +56,11 @@
     },
     {
       "boundLiterals": {
-        "__out__": "0.05"
+        "__out__": "19"
       },
-      "description": "Quantile. For 5% quantile, input 0.05.",
+      "description": "Number of samples to retain.",
       "id": "H1NpXgi7yi",
-      "label": "Quant",
+      "label": "N",
       "position": {
         "units": "slots",
         "x": 1,

@@ -22,7 +22,7 @@
     },
     {
       "boundLiterals": {
-        "__out__": "30"
+        "__out__": "25"
       },
       "description": "Size of internal buffer. Must be a constant integer. Any changes during program execution will be ignored. Maximum size is 255. Odd sizes results in a 'real' middle element and will be a bit faster. Even sizes takes the average of the two middle elements as median.",
       "id": "ByFjk6Gys",
